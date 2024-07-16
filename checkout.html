@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-N8MJ070WNC"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-N8MJ070WNC");
+    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <script
+      src="https://kit.fontawesome.com/a279dcf9f7.js"
+      crossorigin="anonymous"
+    ></script>
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  <link rel="stylesheet" href="./style.css" >
+  <style>
+    /* Add custom styles here if needed */
+  </style>
+</head>
+<body class="lh-base">
+   <!-- Nav -->
+
+   <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top bg-black">
+    <div class="container">
+      <a href="./index.html" class="navbar-brand">Fidelio Perfumes</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navmenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto text-light"></ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+
+    <section class="cart-section py-5 py-md-5 p-3">
+        <div class="container justify-content-center d-flex d-row">
+            <div class="container mt-5">
+                <h2 class="my-4">Checkout</h2>
+                <h3 class="my-4">Your items</h3>
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="cart-items">
+                    <thead>
+                      <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Product 1</td>
+                        <td>$10.00</td>
+                        <td>2</td>
+                        <td>$20.00</td>
+                      </tr>
+                      <tr>
+                        <td>Product 2</td>
+                        <td>$15.00</td>
+                        <td>1</td>
+                        <td>$15.00</td>
+                      </tr>
+                      <!-- Add more rows for additional products -->
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td colspan="3" class="text-right">Total:</td>
+                        <td id="totalPrice">$35.00</td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+            </div>
+      </section>
+    
+      <!-- Pomeriti na cart stranu -->
+        <section id="form" class="bc-grey">
+          <div class="container px-5">
+            <h2 class="pt-5">Please Fill Out The Form With Your Information</h2>
+            <form class="py-5">
+             
+              <div class="row">
+                <div class="form-group col-md-4">
+                  <label for="inputFirstName" class="font-weight-bold"
+                    >First Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputFName"
+                    placeholder="First Name"
+                  />
+                  <small class="fNameField"></small>
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputLastName" class="font-weight-bold"
+                    >Last Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputLName"
+                    placeholder="Last Name"
+                  />
+                  <small class="lNameField"></small>
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputEmail" class="font-weight-bold">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    placeholder="Email"
+                  />
+                  <small class="emailField"></small>
+                </div>
+              </div>
+    
+     
+              <div class="row my-3">
+                <div class="form-group col-md-4">
+                  <label for="inputAddress" class="font-weight-bold"
+                    >Home Address</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress"
+                    placeholder="Home Address"
+                  />
+                  <small class="addressField"></small>
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputCountry" class="font-weight-bold">Country</label>
+                  <select id="inputCountry" class="form-control">
+                    <option>--Choose--</option>
+                    <option value="Serbia">Serbia</option>
+                    <option value="Croatia">Croatia</option>
+                    <option value="Montenegro">Montenegro</option>
+                    <option value="BIH">BIH</option>
+                  </select>
+                  <small class="countryField"></small>
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputPhone" class="font-weight-bold"
+                    >Phone Number</label
+                  >
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="inputPhone"
+                    placeholder="Phone Number"
+                  />
+                  <small class="phoneField"></small>
+                </div>
+              </div>
+    
+            
+              <div class="form-group">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    name="checkTerms"
+                    id="checkTerms"
+                  />
+                  <label class="form-check-label" for="checkTerms">
+                    I agree to the terms and conditions
+                  </label>
+                  <br />
+                  <small class="termsField"></small>
+                </div>
+              </div>
+    
+           
+              <div class="text-center">
+                <div class="text-center">
+                    <a href="./cart.html" class="btn btn-primary">Back To Cart</a>
+                    <button type="submit" class="btn btn-success btn-item form-submit">Order</button>
+                  </div>
+              </div>
+              <small class="success-msg px-2"></small>
+            </form>
+          </div>
+        </section>
+
+  </main>
+    
+  <!-- Footer -->
+
+  <section class="bg-black text-light py-5 py-md-5">
+    <div class="container text-center align-items-center">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Fidelio perfumes</h2>
+          <p>
+            At Fidelio Perfume, we believe that fragrance has the power to
+            evoke emotions, create lasting memories, and elevate the everyday.
+            Our story begins with a passion for the art of perfumery
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Browse</h2>
+          <ul class="d-flex flex-column ul-center">
+            <li class="link">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="link">
+              <a href="./shipping.html">Shipping and Orders</a>
+            </li>
+            <li class="link">
+              <a href="./store.html">Store</a>
+            </li>
+            <li class="link">
+              <a href="" target="_blank">Become Affiliate</a>
+            </li>
+            <li class="">
+              <a href="./sitemap.xml" class="link">Sitemap</a>
+              <a href="./rss.xml" class="link">RSS</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <h2>Find Us Here</h2>
+          <ul class="d-flex flex-column ul-center">
+            <li>
+              <a href="https://www.instagram.com/" class="">
+                Instagram
+                <i class="mx-1 fa-brands fa-instagram link"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/">
+                Twitter
+                <i class="mx-1 fa-brands fa-twitter link"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/">
+                LinkedIn
+                <i class="mx-1 fa-brands fa-linkedin link"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/">
+                Facebook
+                <i class="mx-1 fa-brands fa-facebook link"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="terms">
+        Privacy | Terms & Conditions | Contact Copyright © 2023 All Rights
+        Reserved.
+      </div>
+    </div>
+  </section>
+  <div class="scroll-to-top" id="scrollToTop"></div>
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.3/jquery.scrollTo.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/checkout.js"></script>
+</body>
+</html>
+

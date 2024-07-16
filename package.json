@@ -1,0 +1,15 @@
+{
+  "name": "pathway-copy",
+  "version": "1.0.0",
+  "description": "Scene exported with Spline",
+  "scripts": {
+    "start": "serve"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "jquery.scrollto": "^2.1.3"
+  }
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "name": "Fidelio Adventure",
+    "description": "Fidelio Adventure is the ultimate choice for global explorers. Unleash your spirit of adventure.",
+    "price": 39.99,
+    "src": "../img/perfume1.jpg",
+    "isTopPick": true,
+    "salePrice": 29.99,
+    "isOnSale": true,
+    "milliliters": "30",
+    "gender": "unisex",
+    "brand": "2"
+  },
+  {
+    "id": 2,
+    "name": "Fidelio Rance",
+    "description": "Elevate your presence with our Fidelio Rance fragrance. A warm scent that enhances your aura.",
+    "price": 29.99,
+    "src": "../img/perfume2.jpg",
+    "isTopPick": true,
+    "salePrice": 29.99,
+    "isOnSale": false,
+    "milliliters": "50",
+    "gender": "male",
+    "brand": "1"
+  },
+  {
+    "id": 3,
+    "name": "Fidelio Icy",
+    "description": "Be cold as ice with our NEW Fidelio Icy perfume for all the bold people with ice cold look.",
+    "price": 49.99,
+    "src": "../img/perfume3.jpg",
+    "isTopPick": true,
+    "salePrice": 50.99,
+    "isOnSale": true,
+    "milliliters": "100",
+    "gender": "unisex",
+    "brand": "2"
+  },
+  {
+    "id": 4,
+    "name": "Fidelio Black",
+    "description": "Elegant and clean as it gets. Gentleman's first choice. Will matte black ever go out of style?",
+    "price": 24.99,
+    "src": "../img/perfume4.jpg",
+    "isTopPick": true,
+    "salePrice": 24.99,
+    "isOnSale": false,
+    "milliliters": "30",
+    "gender": "male",
+    "brand": "2"
+  },
+  {
+    "id": 5,
+    "name": "Fidelio Modiri",
+    "description": "A harmonious blend of delicate florals and warm woods for an enduring touch of sophistication.",
+    "price": 19.99,
+    "src": "../img/perfume5.jpg",
+    "isTopPick": false,
+    "salePrice": 19.99,
+    "isOnSale": false,
+    "milliliters": "50",
+    "gender": "female",
+    "brand": "1"
+  },
+  {
+    "id": 6,
+    "name": "Fidelio Lock",
+    "description": "An alluring fragrance that weaves exotic spices, creating an aura of intrigue and fascination.",
+    "price": 24.99,
+    "src": "../img/perfume6.jpg",
+    "isTopPick": false,
+    "salePrice": 19.99,
+    "isOnSale": true,
+    "milliliters": "50",
+    "gender": "unisex",
+    "brand": "3"
+  },
+  {
+    "id": 7,
+    "name": "Fidelio Fogg",
+    "description": "A vibrant fragrance that combines citrus notes with fresh botanicals for a refreshing experience.",
+    "price": 34.99,
+    "src": "../img/perfume7.jpg",
+    "isTopPick": false,
+    "salePrice": 34.99,
+    "isOnSale": false,
+    "milliliters": "100",
+    "gender": "unisex",
+    "brand": "1"
+  },
+  {
+    "id": 8,
+    "name": "Fidelio Aura",
+    "description": "Experience the captivating scent of Fidelio Aura. A fragrance that evokes elegance and allure.",
+    "price": 45.99,
+    "src": "../img/perfume8.jpg",
+    "isTopPick": false,
+    "salePrice": 39.99,
+    "isOnSale": true,
+    "milliliters": "100",
+    "gender": "female",
+    "brand": "3"
+  }
+]
+
+  

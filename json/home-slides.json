@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Explore Perfume Utopia: Men",
+      "text": "Discover an enchanting journey through our diverse perfume collection, where captivating scents conquer the world.",
+      "subtext": "Indulge in the aromatic symphony of carefully crafted fragrances, each one a testament to the artistry and passion of perfumery. Uncover the perfect scent that resonates with your unique personality and leaves a lasting impression.",
+      "src": "img/perfumeimgtransparent.png",
+      "alt": "Expore - Slide 1"
+    },
+    {
+      "title": "Indulge In Scent: Woman",
+      "text": "Embark on a captivating voyage through our extensive fragrance assortment, where mesmerizing scents triumph over the senses..",
+      "subtext": "Immerse yourself in the aromatic harmony of meticulously designed perfumes, each a tribute to the craftsmanship and ardor of perfumery. Discover the ideal scent that harmonizes with your distinct personality, creating an enduring impact.",
+      "src": "../img/perfumeexplore2.png",
+      "alt": "Expore - Slide 2"
+    }
+  ]
+  

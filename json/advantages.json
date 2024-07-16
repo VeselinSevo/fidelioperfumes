@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Long lasting",
+      "text": "Emanating enduring allure, this fragrance weaves a tale of timeless sophistication, leaving an indelible mark on every moment.",
+      "src": "../img/timer.png",
+      "alt": "Fidelio advantage - Long lasting"
+    },
+    {
+      "title": "Premium",
+      "text": "Indulge in opulence with this premium fragrance, a masterpiece of olfactory excellence that defines the epitome of sophistication.",
+      "src": "../img/money.png",
+      "alt": "Fidelio advantage - Premium"
+    },
+    {
+      "title": "Elegant",
+      "text": "Embark on a journey of refined charm with this elegant fragrance, capturing the essence of timeless beauty through its subtle and graceful notes.",
+      "src": "../img/elegant.png",
+      "alt": "Fidelio advantage - Elegant"
+    },
+    {
+      "title": "Well packaged",
+      "text": "Unveil a meticulously crafted fragrance, well-packaged for an exquisite olfactory adventure, wrapped in the artistry of thoughtful packaging.",
+      "src": "../img/package.png",
+      "alt": "Fidelio advantage - Well packaged"
+    }
+  ]
+  

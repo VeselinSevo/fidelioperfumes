@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-N8MJ070WNC"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-N8MJ070WNC");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a279dcf9f7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="../img/flogo.jpg" />
+    <title>Store</title>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PXHG9L5");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  </head>
+
+  <body class="lh-base">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PXHG9L5"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="./index.html" class="navbar-brand">Fidelio Perfumes</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto text-light"></ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+
+      <!-- Cover -->
+      <section id="cover" class="py-5">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators"></ol>
+
+          <!-- Slides -->
+          <div class="carousel-inner"></div>
+
+          <!-- Controls -->
+          <a
+            class="carousel-control-prev"
+            href="#carouselExample"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExample"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Store -->
+      <section id="store" class="">
+        <div class="container d-flex d-column justify-content-center text-center">
+          <div class="container">
+            <div class="row filter-row">
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="milliliters">Milliliters:</label>
+                  <select class="form-control" id="milliliters">
+                    <option value="">All</option>
+                    <option value="30">30ml</option>
+                    <option value="50">50ml</option>
+                    <option value="100">100ml</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="gender">Gender:</label>
+                  <select class="form-control" id="gender">
+                    <option value="">All</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="brand">Brand:</label>
+                  <select class="form-control" id="brand">
+                    <option value="">All</option>
+                    <option value="1">Calvin Klein</option>
+                    <option value="2">Davidoff</option>
+                    <option value="3">Hugo Boss</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="priceRange">Max Price Range:</label>
+                  <input type="range" class="form-range" id="priceRange" min="0">
+                  <div id="priceRangeValue">Not Selected</div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="sort">Sort by:</label>
+                  <select class="form-control" id="sort">
+                    <option value="">None</option>
+                    <option value="price">Price</option>
+                    <option value="milliliters">Milliliters</option>
+                    <option value="name">Name</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-3" id="onSaleContainer">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="onSale">
+                  <span class="form-check-label" for="onSale">
+                    Show only on sale
+                  </span>
+                </div>
+              </div>
+              <div class="col-md-2" id="applyFiltersBtnContainer">
+                <button type="submit" class="btn btn-primary btn-item" id="applyFiltersBtn">Apply Filters</button>
+              </div>
+              <div class="col-md-2" id="applyFiltersBtnContainer">
+                <a class="btn btn-primary btn-primary" id="resetFiltersBtn">Reset Filters</a>
+              </div>
+            </div>
+          </div>
+          
+          
+          <hr />
+          <div class="col-12 d-flex justify-content-center">
+            <div
+            class="store-container store-row row w-sm-100 w-sm-75 w-100 align-self-center align-items-center justify-content-start "
+          ></div>
+          </div>
+    
+          
+        </div>
+      </section>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="storeModal"
+        tabindex="-1"
+        aria-labelledby="storeModal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-id hide"></div>
+              <img class="modal-image hide"></img>
+              <h6 class="modal-description"></h6>
+              <span class="modal-old-price"></span>
+              <p class="modal-price"></p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="addToCartBtn">
+                Add To Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+
+    <section class="bg-black text-light py-5 py-md-5">
+      <div class="container text-center align-items-center">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Fidelio perfumes</h2>
+            <p>
+              At Fidelio Perfume, we believe that fragrance has the power to
+              evoke emotions, create lasting memories, and elevate the everyday.
+              Our story begins with a passion for the art of perfumery
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <h2>Browse</h2>
+            <ul class="d-flex flex-column ul-center">
+              <li class="link">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="link">
+                <a href="./shipping.html">Shipping and Orders</a>
+              </li>
+              <li class="link">
+                <a href="./store.html">Store</a>
+              </li>
+              <li class="link">
+                <a href="" target="_blank">Become Affiliate</a>
+              </li>
+              <li class="">
+                <a href="./sitemap.xml" class="link">Sitemap</a>
+                <a href="./rss.xml" class="link">RSS</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <h2>Find Us Here</h2>
+            <ul class="d-flex flex-column ul-center">
+              <li>
+                <a href="https://www.instagram.com/" class="">
+                  Instagram
+                  <i class="mx-1 fa-brands fa-instagram link"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com/">
+                  Twitter
+                  <i class="mx-1 fa-brands fa-twitter link"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/">
+                  LinkedIn
+                  <i class="mx-1 fa-brands fa-linkedin link"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/">
+                  Facebook
+                  <i class="mx-1 fa-brands fa-facebook link"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="terms">
+          Privacy | Terms & Conditions | Contact Copyright © 2023 All Rights
+          Reserved.
+        </div>
+      </div>
+    </section>
+    <div class="scroll-to-top" id="scrollToTop"></div>
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.3/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/store.js"></script>
+  </body>
+</html>

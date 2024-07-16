@@ -1,0 +1,9 @@
+[
+    { "text": "Home", "link": "./index.html" },
+    { "text": "Shipping & Orders", "link": "./shipping.html" },
+    { "text": "Store", "link": "./store.html" },
+    { "text": "Cart", "link": "./cart.html" },
+    { "text": "Author", "link": "./author.html" },
+    { "text": "Dokumentacija", "link": "./WP2-Sajt-Veselin-Sevo-23-22.pdf" }
+  ]
+  

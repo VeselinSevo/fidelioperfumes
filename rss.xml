@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Fidelio Perfumes</title>
+    <link>https://fidelioperfumes.netlify.app</link>
+    <description>Latest updates - Fidelio Perfumes.</description>
+    <language>en-us</language>
+    <item>
+      <title>Updated Return Policy</title>
+      <link>https://fidelioperfumes.netlify.app/shipping</link>
+      <description>See the latest update regarding our return policy.</description>
+      <pubDate>Mon, 01 Jan 2023 11:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>Buy 2 Perfumes and Get 40% Off Coupon</title>
+      <link>https://fidelioperfumes.netlify.app/store</link>
+      <description>Buy 2 perfumes from our website and get special coupon for next shopping.</description>
+      <pubDate>Tue, 02 Jan 2023 12:30:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
